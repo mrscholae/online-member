@@ -32,9 +32,9 @@
                 <div class="col-12 mb-3">
                     <ul class="list-group">
                         <li class="list-group-item"><i class="fa fa-user mr-2"></i><?= $user['nama']?></li>
-                        <li class="list-group-item"><i class="fa fa-birthday-cake mr-2"></i><?= $user['t4_lahir'].", ".date("d-m-Y", strtotime($user['tgl_lahir']))?></li>
+                        <!-- <li class="list-group-item"><i class="fa fa-birthday-cake mr-2"></i><?= $user['t4_lahir'].", ".date("d-m-Y", strtotime($user['tgl_lahir']))?></li> -->
                         <li class="list-group-item"><i class="fa fa-phone mr-2"></i><?= $user['no_hp']?></li>
-                        <li class="list-group-item"><i class="fa fa-map-marker-alt mr-2"></i><?= $user['alamat']?></li>
+                        <!-- <li class="list-group-item"><i class="fa fa-map-marker-alt mr-2"></i><?= $user['alamat']?></li> -->
                     </ul>
                 </div>
                 <div class="col-12 mb-3">
