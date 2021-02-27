@@ -38,7 +38,7 @@
                     </ul>
                 </div>
                 <div class="col-12 mb-3">
-                  <div class="alert alert-info"><i class="fa fa-info-circle text-info"></i> Klik <a href="https://api.whatsapp.com/send?phone=62<?= substr($wa_admin['value'], 1)?>&text=Permisi%20Admin%20ada%20kesalahan%20data"><b>di sini</b></a> untuk menghubungi Admin jika ada kesalahan kata</div>
+                  <div class="alert alert-info"><i class="fa fa-info-circle text-info"></i> Klik <a href="https://api.whatsapp.com/send?phone=62<?= substr($wa_admin['value'], 1)?>&text=Permisi%20Admin%20ada%20kesalahan%20data"><b>di sini</b></a> untuk menghubungi Admin jika ada kesalahan data</div>
                 </div>
             </div>
         </div>

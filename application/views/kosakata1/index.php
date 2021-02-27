@@ -320,8 +320,8 @@
                         sertifikat = "";
                     
                     if(btn == "materi"){
-                        btn = ` <a href="javascript:void(0)" class="btn btn-md btn-primary text-light" id="btnMateri">materi</a>
-                                <a href="javascript:void(0)" class="btn btn-md btn-secondary" id="btnUjian">ujian</a>`;
+                        btn = ` <a href="javascript:void(0)" class="btn btn-md btn-primary text-light" id="btnMateri">materi</a>`;
+                                // <a href="javascript:void(0)" class="btn btn-md btn-secondary" id="btnUjian">ujian</a>`;
                         // btn = ` <a href="javascript:void(0)" class="btn btn-md btn-primary text-light" id="btnMateri">materi</a>
                         //         <a href="javascript:void(0)" class="btn btn-md btn-secondary" id="btnUjian">ujian</a>                      
                         //         <a href="javascript:void(0)" data-id="`+data.kelas.id_kelas+`" data-toggle="modal" class="btn btn-md btn-secondary" id="btnFaq">FAQ</a>`;
@@ -363,11 +363,13 @@
 
                     $("#dataKelas").html(html);
 
-                    html = `<div class="col-12 mb-3">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><a href="<?= base_url()?>hifdzi1/how_to/<?= md5($kelas['id_kelas'])?>" class="btn btn-md btn-secondary btn-block"><i class="fa fa-question mr-2"></i>Cara Penggunaan</a></li>
-                                </ul>
-                            </div>`;
+                    // html = `<div class="col-12 mb-3">
+                    //             <ul class="list-group">
+                    //                 <li class="list-group-item"><a href="<?= base_url()?>hifdzi1/how_to/<?= md5($kelas['id_kelas'])?>" class="btn btn-md btn-secondary btn-block"><i class="fa fa-question mr-2"></i>Cara Penggunaan</a></li>
+                    //             </ul>
+                    //         </div>`;
+                    
+                    html = ""
                             
                     // html += `<div id="dataMateri">`;
                     data.pertemuan.forEach(pertemuan => {
