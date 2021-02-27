@@ -86,93 +86,93 @@
 
         public function materi_pertemuan($id){
             $data[1] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/1.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/1.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/1.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/1.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/1.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/1.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/1.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/1.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/1.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/1.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/1.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/1.6.png' class='d-block w-100'></div>",
             ];
 
             $data[2] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/2.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/2.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/2.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/2.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/2.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/2.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/2.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/2.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/2.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/2.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/2.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/2.6.png' class='d-block w-100'></div>",
             ];
             
             $data[3] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/3.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/3.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/3.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/3.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/3.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/3.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/3.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/3.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/3.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/3.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/3.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/3.6.png' class='d-block w-100'></div>",
             ];
             
             $data[4] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/4.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/4.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/4.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/4.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/4.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/4.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/4.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/4.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/4.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/4.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/4.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/4.6.png' class='d-block w-100'></div>",
             ];
 
             $data[5] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/5.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/5.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/5.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/5.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/5.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/5.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/5.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/5.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/5.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/5.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/5.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/5.6.png' class='d-block w-100'></div>",
             ];
 
             $data[6] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/6.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/6.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/6.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/6.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/6.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/6.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/6.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/6.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/6.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/6.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/6.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/6.6.png' class='d-block w-100'></div>",
             ];
             
             $data[7] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/7.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/7.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/7.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/7.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/7.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/7.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/7.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/7.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/7.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/7.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/7.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/7.6.png' class='d-block w-100'></div>",
             ];
             
             $data[8] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/8.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/8.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/8.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/8.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/8.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/8.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/8.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/8.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/8.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/8.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/8.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/8.6.png' class='d-block w-100'></div>",
             ];
             
             $data[9] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/9.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/9.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/9.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/9.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/9.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/9.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/9.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/9.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/9.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/9.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/9.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/9.6.png' class='d-block w-100'></div>",
             ];
             
             $data[10] = [
-                "<div class='carousel-item active'><img data-src='".base_url()."assets/img/kosakata1/10.1.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/10.2.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/10.3.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/10.4.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/10.5.png' class='lazy d-block w-100'></div>",
-                "<div class='carousel-item'><img data-src='".base_url()."assets/img/kosakata1/10.6.png' class='lazy d-block w-100'></div>",
+                "<div class='carousel-item active'><img src='".base_url()."assets/img/kosakata1/10.1.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/10.2.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/10.3.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/10.4.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/10.5.png' class='d-block w-100'></div>",
+                "<div class='carousel-item'><img src='".base_url()."assets/img/kosakata1/10.6.png' class='d-block w-100'></div>",
             ];
             return $data[$id];
         }

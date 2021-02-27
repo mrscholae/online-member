@@ -97,12 +97,3 @@ textarea {
     -webkit-filter: drop-shadow(0px 1px 2px #222 );
     filter: drop-shadow(0px 1px 2px #222);
 }
-
-.lazy {
-    background: #F1F1FA;
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 10px auto;
-    border: 0;
-  }
